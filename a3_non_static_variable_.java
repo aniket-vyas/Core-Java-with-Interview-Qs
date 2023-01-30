@@ -1,5 +1,5 @@
 /*
- * 2.) NON STATIC VRIABLE :-
+ *	2.) NON STATIC VRIABLE :-
  *    
  * ~> belongs to object
  * ~> also known as instance variable
@@ -9,6 +9,7 @@
 */
 public class non_static_variable {
 	int x = 10;
+	int y = 20;
 	
 	public void test(){ //non static method
 		System.out.println("from test method");
@@ -16,6 +17,9 @@ public class non_static_variable {
 	public static void main(String[] args) {
 		non_static_variable a1 = new non_static_variable();
 		System.out.println(a1.x); //10
+		
+		a1.y = 25;
+		System.out.println(a1.y); //25
 		
 		a1.test(); //call test method
 	}
