@@ -6,6 +6,7 @@
  * ~> not mandatory to initialized
  * ~> variable are store in object
  * ~> static & non static variable name can't be same
+ * ~> static & non static variable are store in Meta-space(in Stack)
 */
 public class non_static_variable {
 	int x = 10;
