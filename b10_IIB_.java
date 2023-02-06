@@ -3,7 +3,9 @@
  *
  * ~> it will execute only when object is created.
  * ~> no. of times object is created, same no. of 
- * 		times IIB will be called. 
+ * 		times IIB will be called.
+ * ~> we can create object inside IIB ?
+ * 		--> no error -> but never stops
  * ~> it is use to initialized all the instance variable.
  * ~> first IIB will call then constructor
  * ~> we can initialized both static and non-static
