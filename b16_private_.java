@@ -18,13 +18,17 @@
  * 			a class can never be private
 */
 public class private_ {
+	
 	private int x = 10; //variable
+	
 	private void test() { //method
 		System.out.println("from test()");
 	}
+	
 	private private_(){ //constructor
 		System.out.println("from constructor");
 	}
+	
 	public static void main(String[] args) {
 		//calling
 		private_ a1 = new private_();
