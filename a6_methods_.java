@@ -30,10 +30,12 @@ public class method {
 		
 		System.out.println("End of the program :) ");
 	}
+	
 	public static void test1() {
 		//static method : belongs to class
 		System.out.println("from static method test1");
 	}
+	
 	public void test2() {
 		//non static method : belong to object
 		System.out.println("from non static method test2");
