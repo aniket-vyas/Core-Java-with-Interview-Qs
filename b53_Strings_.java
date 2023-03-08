@@ -23,7 +23,22 @@ public class String_ {
 		}
 		System.out.println("\n");
 		
-		//no of words
+		//convert to upper & lower case 
+		System.out.println("Lower case : " + str.toLowerCase());
+		System.out.println("Upper case : " + str.toUpperCase());
+		
+		//some boolean value : for str = "Aniket Vyas"
+		System.out.println(str.startsWith("a"));	//false
+		System.out.println(str.startsWith("A"));	//true
+		System.out.println(str.endsWith("a"));		//false
+		System.out.println(str.endsWith("s"));		//true
+		
+		//convert int , double , char , boolean , char[] --to--> string
+		int i = 20;
+		String str1 = String.valueOf(i);
+		System.out.println("convert int to string : " + str1);
+		
+		//count no. of words
 		System.out.print("No. of words are : ");
 		String[] s1 = str.trim().split(" ");
 		System.out.println(s1.length);
