@@ -2,6 +2,7 @@
  *		RUNNABLE :- 
 */
 public class multitasking_2 implements Runnable{
+	//Runnable is an interface
 
 	String name;
 	multitasking_2(String name){
